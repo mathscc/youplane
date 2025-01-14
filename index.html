@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube by mathsc.c</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-hidden">
+    <div class="container">
+        <!-- header/navbar -->
+        <header>
+            <nav class="navbar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="uil uil-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="images/logo.png" alt="Logo" class="logo-image">
+                        <h2 class="logo-text">YouPlane</h2>
+                    </a>
+                </div>
+
+                <div class="nav-section nav-center">
+                    <form action="#" class="search-form">
+                        <input type="search" placeholder="Rechercher" required
+                        class="search-input">
+                        <button class="nav-button search-button">
+                            <i class="uil uil-search"></i>
+                        </button>
+                    </form>
+                    <button class="nav-button mic-button">
+                        <i class="uil uil-microphone"></i>
+                    </button>   
+                </div>
+
+                <div class="nav-section nav-right">
+                    <button class="nav-button search-button">
+                        <i class="uil uil-search"></i>
+                    </button>
+                    <button class="nav-button theme-button">
+                        <i class="uil uil-moon"></i>
+                    </button>
+                    <img src="images/user.png" alt="User Image" class="user-image">  
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-layout">
+
+            <div class="screen-overlay"></div>
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="uil uil-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="images/logo.png" alt="Logo" class="logo-image">
+                        <h2 class="logo-text">YouPlane</h2>
+                    </a>
+                </div>
+
+                <div class="link-container">
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="uil uil-estate"></i> Acceuil
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-video"></i> Shorts
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-copy-landscape"></i> Abonnements
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">Vous</h4>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-history"></i> Historique
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-list-ul"></i> Playlists
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-image-lock"></i> Vos vidéos
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-clock"></i> À regarder plus tard
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-thumbs-up"></i> Vidéos "J'aime"
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">Explorer</h4>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-fire"></i> Tendances
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-music"></i> Musique
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-clapper-board"></i> Films et séries TV
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-record-audio"></i> Directs
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-basketball"></i> Gaming
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-newspaper"></i> Actualités
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-trophy"></i> Sports
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-lightbulb-alt"></i> Savoirs & Cultures
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-slack-alt"></i> Mode et beauté
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-headphones"></i> Podcasts
+                        </a>  
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">Autre contenus YouPlane</h4>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-shield-plus"></i> YouPlane Plus
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-play-circle"></i> YouPlane Music
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-youtube"></i> YouPlane Kids
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="uil uil-setting"></i> Paramètres
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-windsock"></i></i> Historique des sign...
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-question-circle"></i></i> Aide
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-exclamation-triangle"></i> Envoyer des comm...
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+                </div>
+            </aside>
+
+            <div class="content-wrapper">
+                <!-- category list -->
+                <div class="category-list">
+                    <button class="category-button active">Tous</button>
+                    <button class="category-button">Avion</button>
+                    <button class="category-button">CSS</button>
+                    <button class="category-button">GP</button>
+                    <button class="category-button">Drill</button>
+                    <button class="category-button">En direct</button>
+                    <button class="category-button">Podcast</button>
+                    <button class="category-button">Populaire</button>
+                    <button class="category-button">Nouriture</button>
+                    <button class="category-button">Seklenland</button>
+                    <button class="category-button">Actualité</button>
+                    <button class="category-button">Aéronautique</button>
+                    <button class="category-button">Pilote</button>
+                    <button class="category-button">Co-pilot</button>
+                    <button class="category-button">Skibidi Toilet</button>
+                    <button class="category-button">SigmaBoy</button>
+                    <button class="category-button">Tour de contrôle</button>
+                    <button class="category-button">Website</button>
+                    <button class="category-button">HTML</button>
+                    <button class="category-button">Mme BENMAAZOUZ</button>
+                    <button class="category-button">un ptit 20</button>
+                    <button class="category-button">svp</button>
+                    <button class="category-button">J'ai plus d'idée</button>
+                </div>
+            <!-- Video list  -->
+                <div class="video-list">
+                    <a href="video_player.html" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">50:21</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                <p class="channel-name">CodingNepal</p>
+                                <p class="views">27K vues • il y a 4 mois</p>
+                            </div>
+                        </div>
+                    </a>
+                                        <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-gp.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">50:26</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/squeezie.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">L'histoire du projet le plus fou de ma vie</h2>
+                                <p class="channel-name">SQUEEZIE</p>
+                                <p class="views">9.4M de vues • il y a 2 ans</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-leparisien.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">1:45</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/leparisien.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Un passager se tue en grimpant dans le moteur d’un Airbus A220 prêt à partir</h2>
+                                <p class="channel-name">Le Parisien</p>
+                                <p class="views">2M de vues • il y a 10 mois</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-kaizen.png" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">2:26:38</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/inoxtag.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">KAIZEN: 1 an pour gravir l'Everest !</h2>
+                                <p class="channel-name">Inoxtag</p>
+                                <p class="views">39M de vues • il y a 3 mois</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-redbull.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">3:26</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/redbull.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">I Jumped From Space (World Record Supersonic Freefall)</h2>
+                                <p class="channel-name">Red Bull</p>
+                                <p class="views">35M de vues • il y a 2 ans</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-ate.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">11:25</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/ate-chuet.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">L'AVION D'ASSAD ABATTU EN SYRIE ? LE VOL SYR9218 A LA LOUPE</h2>
+                                <p class="channel-name">ATE CHUET</p>
+                                <p class="views">498K vues • il y a 5 jours</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-norman.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">16:38</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/norman.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Des choses à vous dire...</h2>
+                                <p class="channel-name">Norman</p>
+                                <p class="views">4,5M de vues • il y a 4 mois</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/DLs1X9T1GcY/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Create Text Typing Effect in HTML CSS & Vanilla JavaScript</h2>
+                                <p class="channel-name">CodingNepal</p>
+                                <p class="views">17K vues • il y a 10 mois</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-diddy.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">4:13</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/diddy.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Diddy - Closer To God (ft. Teyana Taylor) [Official Video]</h2>
+                                <p class="channel-name">Diddy </p>
+                                <p class="views">2M de vues • il y a 1 an</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-squeezie.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">15:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/squeezie.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">voilà pourquoi j'ai peur de l'avion</h2>
+                                <p class="channel-name">SQUEEZIE</p>
+                                <p class="views">11M de vues • il y a 4 ans</p>
+                            </div>
+                        </div>
+                    </a>                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-arte.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">3:01</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/arte.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">La peur en avion | Tu mourras moins bête | SAISON 1 | ARTE</h2>
+                                <p class="channel-name">Tu mourras moins bête - ARTE</p>
+                                <p class="views">421K vues • il y a 3 ans</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-minecraft.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">10:29</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/wider-dude.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Minecraft REAL LIFE ZOMBIE HOUSE BUILD CHALLENGE - NOOB vs PRO vs HACKER vs GOD / Animation</h2>
+                                <p class="channel-name">WiederDude</p>
+                                <p class="views">8,8M de vues • il y a 1 an</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-sigma.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">1:01</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/mocraft.jpeg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Sigma Sigma Boy Original vs Phonk vs Remix</h2>
+                                <p class="channel-name">Mocraft</p>
+                                <p class="views">195K vues • il y a 4 jours</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/mina-yvan.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">16:19</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/yvan.jpg" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Comprendre les notations sur les fonctions f : x ↦ x² , f(x) = x² , y = x²</h2>
+                                <p class="channel-name">Yvan Monka</p>
+                                <p class="views">209K vues • il y a 3 ans</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="video_player1.html" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="images/minia-avion.jpg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">0:23</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="images/user.png" alt="Channel Logo" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Le premier vol de l'histoire aéronautique</h2>
+                                <p class="channel-name">Ibrahim LANDOULSI</p>
+                                <p class="views">7.6M Vues • il y a 12 ans</p>
+                            </div>
+                        </div>
+                    </a>
+                            </div>
+                        </div>
+                    </a>                                                
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
